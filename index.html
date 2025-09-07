@@ -3,35 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GeoFS Launch</title>
+  <title>GeoFS Embed</title>
   <style>
     html, body {
-      height: 100%;
       margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: Arial, sans-serif;
-      background: #1a1a1a;
-      color: #fff;
+      height: 100%;
+      overflow: hidden;
     }
-    .button {
-      padding: 20px 40px;
-      background: #0078d7;
-      color: white;
-      text-decoration: none;
-      font-size: 24px;
-      border-radius: 10px;
-      transition: 0.3s;
-    }
-    .button:hover {
-      background: #005a9e;
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
     }
   </style>
 </head>
 <body>
-  <a class="button" href="https://www.geo-fs.com/" target="_blank">
-    Launch GeoFS Simulator
-  </a>
+  <iframe src="https://www.geo-fs.com/" allowfullscreen></iframe>
 </body>
 </html>
